@@ -1,0 +1,278 @@
+.btn-group-xs > .btn,
+.btn-xs,
+.btn
+    border-radius: 0px
+
+.navbar
+    margin-bottom: 0px
+
+.navbar-default
+    background-color: #37455f
+    border-color: #37455f
+
+    .navbar-nav
+        .open
+            a
+                color: #ffffff
+                background-color: #445675
+
+                &:hover
+                    color: #ffffff
+                    background-color: #445675
+
+                &:focus
+                    color: #ffffff
+                    background-color: #445675
+
+.navbar-inverse .navbar-nav > li > a
+    color: #ffffff
+
+    ul.header
+        padding-right: 10px
+    
+    a.white-letter
+        cursor: pointer
+
+    .navbar-brand
+        padding: 0
+
+        img
+            height: 100%
+            margin: 0 auto
+
+    button.navbar-toggle span.icon-bar
+        background-color: #ffffff !important
+
+    button.navbar-toggle:hover
+        background-color: #ffffff !important
+
+    button.navbar-toggle:hover span.icon-bar
+        background-color: #37455f !important
+
+.login
+	width: 400px
+    margin: 5% auto 0 auto
+    font-family: 'Oswald', sans-serif
+
+form input,
+form button,
+form textarea
+    font-family: 'Open Sans', sans-serif
+    border-radius: 0 !important
+
+form label
+    font-family: 'Open Sans', sans-serif
+    color: #111
+    font-weight: normal
+
+form.login-form
+    border: 1px solid gray
+
+    .header-content
+        padding: 15px 20px
+
+        h1
+            text-align: center
+
+    .body-content
+        padding: 15px 20px
+        position: relative
+
+.contenedor
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
+
+.wrapper
+    background-color: white
+    margin-bottom: 15px
+    .title
+        background-color: #dc6767
+        p
+            margin: 0px
+            padding: 10px 5px
+            color: white
+            font-weight: bold
+
+    .body
+        .col-md-12
+            padding-top: 15px
+
+.input-icon
+    position: relative
+
+    &.right i
+        right: 8px
+        float: right
+
+    i
+        color: #999999
+        display: block
+        position: absolute
+        margin: 10px 2px 4px 10px
+        width: 16px
+        height: 16px
+        font-size: 16px
+        text-align: center
+
+    &.right input
+        padding-left: 12px
+        padding-right: 33px
+
+.page-content
+    margin-left: 225px
+    margin-top: 50px
+    padding: 15px
+    background-color: #d8d7d6
+
+.page-sidebar
+    background-color: #445675
+    margin-top: 50px
+    padding: 0px
+
+    .navbar-collapse
+        padding: 0
+
+    &.navbar-collapse
+        &.collapse
+            &.ng-scope
+                &.logged
+                    display: block !important
+
+.page-sidebar-menu 
+    list-style: none
+    margin: 0
+    padding: 0
+    margin: 0
+    padding: 0
+
+    li 
+        display: block
+        margin: 0
+        padding: 0
+        border: 0px
+
+        a
+            border-bottom: 1px solid #37455f !important
+            display: block
+            position: relative
+            margin: 0
+            border: 0
+            padding: 10px 15px
+            text-decoration: none
+            font-size: 14px
+            trasition: 0.3s
+                
+            &:hover
+                background: #dc6767
+                color: #ffffff
+
+            &.active
+                background: #dc6767
+                color: #ffffff
+
+    .title-section div h2
+        background-color: #f0f2f5
+        margin-top: 0
+        margin-bottom: 10px
+        padding: 5px 15px
+
+    .chart-best.ng-hide-add.ng-hide-add-active,
+    .chart-best.ng-hide-remove.ng-hide-remove-active
+        -webkit-transition: all linear 0.3s
+        transition: all linear 0.3s
+
+    .chart-best.ng-hide
+        opacity: 0
+
+    .chart-best > div.active
+        box-shadow: #5bc0de 1px 1px 38px
+
+    .chart-best > div > .chart-header
+        min-height: 50px
+
+        .chart-best > div > .chart-header > h3
+            margin: 12px 0px
+            color: white
+            font-family: 'Open Sans', sans-serif
+
+        .chart-best > div > .chart-header > .btn-group
+            margin: 13px 0px
+
+    .chart-best > div > .chart-content
+        margin: 0 2px
+        padding: 10px 0px 5px 0px
+        font-family: 'Open Sans', sans-serif
+
+    .chart-best > div.background-green > .chart-content
+        border-bottom: 2px solid #488c6c
+
+    .chart-best > div.background-blue > .chart-content
+        border-bottom: 2px solid #488c6c
+
+    .chart-best > div.background-orange > .chart-content
+        border-bottom: 2px solid #f2994b
+
+    .chart-best > div.background-purple > .chart-content
+        border-bottom: 2px solid #bf3773
+
+footer .container
+    display: none
+    text-align: center
+
+footer .container.logged
+    display: block
+    margin-left: 225px
+    padding: 5px 0 5px 32%
+    background-color: #f0f2f5
+    margin-bottom: 10px
+    text-align: left
+
+@media (min-width: 768px)
+    .navbar
+        border-radius: 0px
+
+    .page-sidebar 
+        width: 225px
+        position: fixed
+        top: 0
+
+        &.navbar-collapse
+            &.collapse
+                height: 8000px !important
+
+    .page-content
+        &.logged
+            margin-left: 225px
+            margin-top: 50px
+
+    .chart-best
+        margin-bottom: 10px
+
+.white-letter
+    color: #ffffff !important
+
+.gray-letter
+    color: #777 !important
+
+.black-letter
+    color: black !important
+
+.align-center
+    text-align: center
+
+.background-green
+    background-color: #488c6c
+
+.background-blue
+    background-color: #0a819c
+
+.background-orange
+    background-color: #f2994b
+
+.background-purple
+    background-color: #bf3773
+
+.background-white
+    background-color: #ffffff
